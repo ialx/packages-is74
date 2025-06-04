@@ -5,7 +5,7 @@ PKG_VERSION:=1.20.4
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/ialx/speedtestcpp/tar.gz/v$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://codeload.github.com/ialx/speedtestcpp_is74/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=de60fb8b0d6b49c8a734f70cef0db8bdee64051d0b4d81f116b5a80a241def0c
 
 PKG_MAINTAINER:=Alexander V. Ignatyev <ialx84@ya.ru>
@@ -19,7 +19,7 @@ define Package/libspeedtestcpp_is74
   CATEGORY:=Libraries
   TITLE:=library for ookla's speedtest
   DEPENDS:=+libcurl +libstdcpp
-  URL:=https://github.com/ialx/speedtestcpp
+  URL:=https://github.com/ialx/speedtestcpp_is74
 endef
 
 define Package/libspeedtestcpp_is74/description
@@ -31,7 +31,7 @@ define Package/speedtestcpp_is74
   CATEGORY:=Network
   TITLE:=SpeedTest++
   DEPENDS:=+libspeedtestcpp_is74 +libstdcpp
-  URL:=https://github.com/ialx/speedtestcpp
+  URL:=https://github.com/ialx/speedtestcpp_is74
   PROVIDES:=speedtestpp_is74
 endef
 
