@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/ialx/speedtestcpp_is74/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=de60fb8b0d6b49c8a734f70cef0db8bdee64051d0b4d81f116b5a80a241def0c
+PKG_HASH:=9f5f5888320891329bb7395e086a189589e1170151b4cdf759c503f180c37ce4
 
 PKG_MAINTAINER:=Alexander V. Ignatyev <ialx84@ya.ru>
 PKG_LICENSE:=MIT
